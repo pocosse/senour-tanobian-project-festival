@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #ff7f50; /* Coral color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffe4e1; /* Misty rose color */
+}

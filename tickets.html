@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets - Summer Festival</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="location.html">Location</a>
+    <a href="artists.html">Artists</a>
+    <a href="dates.html">Dates</a>
+    <a href="tickets.html">Tickets</a>
+    <a href="prevention.html">Prevention</a>
+  </nav>
+  <header class="banner">
+    <div class="container">
+      <h1>Get Your Tickets</h1>
+    </div>
+  </header>
+  <main>
+    <section class="tickets">
+      <div class="container">
+        <h2>Ticket Prices</h2>
+        <ul>
+          <li>General Admission: $50</li>
+          <li>VIP Pass: $120</li>
+          <li>Group Discount (4+): $180</li>
+        </ul>
+        <form action="https://www.example.com/submit" method="post">
+          <label for="ticket-type">Choose your ticket type:</label>
+          <select id="ticket-type" name="ticket-type">
+            <option value="general">General Admission - $50</option>
+            <option value="vip">VIP Pass - $120</option>
+            <option value="group">Group Discount (4+) - $180</option>
+          </select>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+          <button type="submit" class="btn-blue">Buy Tickets</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

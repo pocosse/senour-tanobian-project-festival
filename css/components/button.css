@@ -1,0 +1,42 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-blue {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+}
+
+.btn-blue:hover {
+  background-color: #e07b00;
+  transform: scale(1.05);
+}
+
+.btn-green {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-green:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.btn-pink {
+  background-color: #e83e8c;
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #d6336c;
+  transform: scale(1.05);
+}

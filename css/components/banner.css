@@ -1,0 +1,37 @@
+.banner {
+  background-image: 
+    linear-gradient(rgba(255, 127, 80, 0.5), rgba(255, 127, 80, 0.5)), 
+    url('../../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.banner h2 {
+  font-size: 35px;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.btn-blue {
+  background-color: #32cd32; /* Lime green */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #2eb82e; /* Darker lime green */
+}
